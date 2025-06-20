@@ -3,12 +3,9 @@ import sys
 
 # Inicialização do pygame
 pygame.init()
-resoluçao = []
-resoluçao.append (int(input("Digite altura de resolição de tela: ")))
-resoluçao.append (int(input("Digite a largura de resolução de tela: ")))
-# Constantes de tela
-LARGURA_TELA = resoluçao[0]
-ALTURA_TELA = resoluçao[1]
+
+LARGURA_TELA = 1280
+ALTURA_TELA = 720
 
 # Cores
 BRANCO = (255, 255, 255)
