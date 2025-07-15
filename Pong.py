@@ -19,7 +19,7 @@ pygame.display.set_caption("Pong")
 
 # Carrega os frames do fundo
 frames = []
-for i in range(1, 606):
+for i in range(1, 1213):  # Ajuste o número de frames conforme necessário
     frame = pygame.image.load(f'Template\\frame_{i:03d}.png')
     frame = pygame.transform.scale(frame, (LARGURA_TELA, ALTURA_TELA))
     frames.append(frame)
@@ -34,7 +34,7 @@ try:
     pygame.mixer.init()
     backgroundmusic = pygame.mixer.Sound("Music\\Music 2.wav")
     backgroundmusic.play(-1)
-    bonk = pygame.mixer.Sound("Bonk 2.wav")
+    bonk = pygame.mixer.Sound("Music\\Bonk 2.wav")
     point_sound = pygame.mixer.Sound("Music\\Ponto 2.wav")
 except pygame.error as e:
     print(f"Erro ao carregar ou reproduzir sons: {e}")
