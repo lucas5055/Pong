@@ -8,8 +8,8 @@ I created this game only with Python and Pygame, because it's the only language 
 i know it would be easy if i knew other languages but i one thing at time ok?
 <h1>About</h1>
 This game is very simple you start and you have a racket and your oponent have another. <br>
-the way it's designed now it's for two players in the same keyboard using W and S (Player 1) and UP and DOWN (Player 2).<br>
-I have some plans to implement AI to the game but this is for future, i can't do this rigth now (because i don't even know how)<br>
+the way it's designed now it's for two players in the same keyboard using W and S and UP and DOWN.<br>
+Download  the version 1.0 for two players and the latest version for only one player
 <h1>Future plans</h1>
 I have some ideas to implement it might get some time because of work and college but we are getting there, and if you want to help me i would be glad to have any help 😉<br>
 ⚫ https://github.com/lucas5055/Pong/issues/1 Create a game menu<br>
